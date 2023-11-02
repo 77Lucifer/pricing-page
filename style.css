@@ -1,0 +1,758 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: visible;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.page-section{
+    width: 100%;
+    height: 2550px;
+    background-color: #f3f5fc;
+    
+}
+
+/* nav bar */
+
+.logo{
+    background-image: url(img/asset\ 7.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    width: 300px;
+    height: 56px;
+    margin-left: -30px;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    position: fixed;
+    background-color: #f3f5fc;
+    justify-content: space-evenly;
+}
+
+.hum-brgr{
+    width: 32px;
+    height: 32px;
+    display: none;
+}
+
+.nav-bar ul li{
+    justify-content: center;
+    margin: 15px 30px 0 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.nav-bar ul li:hover{
+    color: #262626c0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.nav-btn{
+    margin: 5px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sign-in{
+    width: 78px;
+    height: 40px;
+    background-color: white;
+    margin-right: -20px;
+}
+
+.start-btn{
+    background-color: #267dff;
+    color: #ffffff;
+    width: 121px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+.sign-in:hover{
+    background-color: #ebebeb;
+}
+
+.start-btn:hover{
+    background-color: #1462d7;
+}
+
+/* top banner */
+
+.top-banner{
+    width: 100%;
+    padding: 20px;
+    height: 600px;
+    text-align: center;
+}
+
+.top-container{
+    margin-top: 120px;
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.top-container h1{
+    font-size: 3.5rem;
+    line-height: 63px;
+}
+
+.container-words{
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+}
+
+.top-container p{
+    font-size: 1.3rem;
+    width: 680px;
+    margin: 20px auto;
+    
+}
+
+.software-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 490px;
+    height: 56px;
+    padding: 5px 20px;
+    margin: 0px auto;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222222;
+    background-color: #ddebff;
+    cursor: pointer;
+}
+
+.data-science{
+    padding: 9px;
+    margin-left: -10px;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.software-only:active{
+    background-color: #ffffff;
+    padding: 9px;
+    border-radius: 6px;
+}
+
+/* card-section */
+
+.card-section{
+    height: 1697px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.card-container{
+    height: 1617px;
+    padding: 30px;
+    padding-left: 30px;
+    display: flex;
+    gap: 60px;
+}
+
+.card{
+    width: 350px;
+    height: 1500px;
+    margin-right: 50px;
+    padding: 20px 25px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.card p{
+    margin-top: 25px;
+}
+
+.plus{
+    width: 200px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 39px;
+    background-image: url(img/asset\ 24.svg);
+    background-repeat: no-repeat;
+
+}
+
+.card span{
+    margin-left: 40px;
+}
+
+.price{
+    font-size: 1.5rem;
+    margin-top: 22px;
+    padding: 10px;
+    border-top: 2px solid #6a89b8a6;
+    height: 100px;
+    width: 100%;
+}
+
+.price-btn{
+    background-color: #267dff;
+    color: #ffffff;
+    padding: 15px 45px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.price-btn:hover{
+    background-color: #1462d7;
+}
+.card ul{
+    list-style: none;
+}
+
+.card ul p{
+    font-size: 1.2rem;
+}
+
+
+.correct-img{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 250px;
+    margin-top: 10px;
+}
+
+
+.correct{
+    margin-left: 5px;
+    margin-top: 2px;
+    border-radius: 90%;
+    background-color: #d1fadf;
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+}
+
+.support{
+    margin-top: 30px;
+    border-top: 2px solid #6a89b8a6;
+    border-bottom: 2px solid #6a89b8a6;
+    height: 230px;
+}
+
+.delivery{
+    margin-top: 30px;
+    border-top: 2px solid #6a89b8a6;   
+}
+
+.btn-2{
+    margin-top: 30px;
+}
+
+.card-two{
+    height: 1570px;
+    margin-top: -75px;
+}
+
+.card-two h5{
+    width: 67px;
+    height: 25px;
+    padding: 4px 8px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #00d085;
+}
+
+.card-three{
+    margin-top: -15px;
+    height: 1511px;
+}
+
+/* companies */
+
+.companies{
+    width: 100%;
+    height: 158px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.company{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 108px;
+    padding: 20px;
+    /* margin-left: 50px; */
+}
+
+.company-1{
+    width: 200px;
+    height: 72px;
+    background-image: url(img/asset\ 27.svg);
+    background-repeat: no-repeat;
+}
+
+.company-2{
+    width: 160px;
+    height: 72px;
+    background-image: url(img/asset\ 28.svg);   
+}
+
+.company-3{
+    width: 160px;
+    height: 72px;
+    background-image: url(img/asset\ 29.svg);
+}
+
+.company-4{
+    width: 160px;
+    height: 72px;
+    background-image: url(img/asset\ 30.svg);
+}
+
+.company-5{
+    width: 160px;
+    height: 72px;
+    background-image: url(img/asset\ 31.svg);
+}
+
+/* question-section */
+
+.question-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1349px;
+    height: 625px;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+
+.left-box{
+    margin: 0px 80px;
+    width: 250px;
+    height: 144px;
+}
+
+.left-box h1{
+    font-size: 2.9rem;
+}
+
+.left-box p{
+    margin: 20px 0px;
+}
+
+.right-box{
+    width: 730px;
+    height: 342px;
+    margin: 0px 40px;
+    margin-top: 60px;
+    padding: 35px 25px;
+}
+
+.question{
+    margin-top: 30px;
+    width: 100%;
+    height: 63px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #f3f5fc;
+    display: flex;
+}
+
+.question-plus{
+    width: 33px;
+    height: 33px;
+    margin: 5px 10px;
+    cursor: pointer;
+    /* background-color: #267dff; */
+}
+
+.question a{
+    margin: 12px 16px;
+    font-size: 20px;
+}
+
+/* footer-section */
+
+.footer-section{
+    width: 100%;
+    height: 555px;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #ebebeb;
+}
+
+.footer-container{
+    display: flex;
+    margin: 20px;
+    margin-left: 120px;
+    height: 350px;
+}
+
+.footer-left{
+    width: 340px;
+    height: 240px;
+}
+
+.footer-left p{
+    margin: 20px 50px;
+}
+
+.social-media{
+    width: 150px;
+    height: 20px;
+    padding-left: 15px;
+}
+
+.social-media img{
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.footer-right{
+    display: flex;
+    gap: 100px;
+    width: 90vw;
+    height: 445px;
+    margin: 10px 30px;
+    padding: 0px 50px;
+}
+
+.footer-right ul{
+    margin-left: 50px;
+    list-style: none;
+}
+
+.footer-right ul h4{
+    font-size: 20px;
+}
+
+.footer-right ul li{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.footer-right ul li:hover{
+    color: rgb(58, 45, 45);
+    font-weight: 600;
+}
+
+.vanta-img{
+    width: 370px;
+    height: 100px;
+    margin-left: 120px;
+    padding: 10px;
+}
+
+.vanta-img img{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+}
+
+.message{
+    width: 50px;
+    height: 50px;
+    background-color: #267dff;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.message i{
+    color: white;
+    font-size: 1.5rem;
+    margin: 14px 13px;
+    width: 24px;
+    height: 24px;
+}
+
+/* my Contact */
+
+.my-contact{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: green;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.my-contact ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.my-contact ul a{
+    color: #ebebeb;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+/* media quires */
+
+/* 1 break point */
+
+@media screen and (max-width: 997px) {
+
+    .page-section{
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .nav-bar ul li{
+        display: none;
+    }
+
+    .sign-in{
+        display: none;
+    }
+
+    .start-btn{
+        display: none;
+    }
+
+    .nav-bar ul{
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .hum-brgr{
+        display: inline-block;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+    .top-container p{
+        width: 100%;
+        margin: 30px 20px;
+    }
+    
+    .software-box{
+        margin-top: 100px;
+    }
+    
+    .card-section{
+        height: 100%;
+    }
+    
+    .card-container{
+        display: block;
+        height: 100%;
+    }
+    
+    .card{
+        margin: 25px auto;
+    }
+    
+    .companies{
+        margin-top: -2px;
+        margin-left: -30px;
+    }
+    
+    .company{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }   
+    
+    
+    .question-section{
+        display: block;
+    }
+    
+    .left-box{
+        margin-top: 50px;
+        width: 800px;
+    }
+    
+    .left-box h1{
+        margin-left: -30px;
+
+    }
+
+    .left-box p{
+        margin-left: -30px;
+    }
+
+    .right-box{
+        width: 100%;
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+    
+    .question{
+        width: 46%;
+        margin-left: -50px;
+    }
+    
+    
+    .footer-section{
+        height: 100%;
+    }
+    
+    .footer-container{
+        margin-left: 2px;
+    }
+    
+    .footer-right{
+        gap: 20px;
+        height: 100%;
+        margin-right: 30px;
+        display: block;
+    }
+    
+    .footer-right ul{
+        overflow: hidden;
+        margin-top: 30px;
+    }
+
+    .vanta-img{
+        margin-top: 30px;
+        margin-left: 2px;
+        flex-wrap: wrap;
+    }
+
+    .my-contact{
+        display: none;
+    }
+}
+
+
+/* 2 break point */
+
+@media screen and (max-width: 768px) {
+    .top-container h1{
+        width: 550px;
+        margin-left: -50px;
+    }
+
+    .top-container p{
+        width: 550px;
+        margin-left: -50px;
+    }
+
+    .software-box{
+        display: block;
+        height: 100px;
+        width: 100%;
+    }
+
+    .software-only{
+        margin-top: 15px;
+    }
+
+    .card{
+        margin-top: 60px;
+    }
+
+    .left-box{
+        width: 40%;
+        margin-left: -30px;
+        margin-left: 40px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 20px;
+    }
+
+    .right-box{
+        margin-top: 35px;
+        margin-right: 200px;
+    }
+
+    .question{
+        width: 46%;
+
+    }
+
+    .footer-container{
+        display: block;
+        height: fit-content;
+    }
+
+    .footer-right{
+        display: flex;
+        margin-top: 20px;
+        margin-left: -50px;
+    }
+
+    .vanta-img{
+        display: none;
+    }
+
+}
+
+/* 3 break point */
+
+@media screen and (max-width: 610px) {
+
+    .page-section{
+        padding-right: 20px;
+    }
+
+    .top-container h1{
+        width: 100%;
+    }
+
+    .container-words{
+        margin: 20px;
+    }
+
+    .top-container p{
+        display: none   ;
+    }
+
+    .software-box{
+        margin-top: 150px;
+    }
+
+    .card-container{
+        width: 100%;
+        margin: 130px 30px;
+    }
+
+    .card{
+        margin-left: -50px;
+    }
+
+    .question-section{
+        width: 900px;
+    }
+
+}
+
+/* Fuck the end */
